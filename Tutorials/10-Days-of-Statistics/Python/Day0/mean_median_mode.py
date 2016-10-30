@@ -2,6 +2,7 @@
 #
 # Author: Stefan Mendoza
 # Date Created: 27 October 2016
+# Source: https://www.hackerrank.com/challenges/s10-basic-statistics
 
 from math import ceil, floor
 import sys
