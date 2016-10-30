@@ -1,5 +1,15 @@
 #!/bin/ruby
 
+##
+# == Author
+# Stefan Mendoza
+#
+# == Date Created
+# 28 October 2016
+#
+# == Source
+# https://www.hackerrank.com/challenges/ctci-ransom-note
+
 m,n = gets.strip.split(' ')
 m = m.to_i
 n = n.to_i

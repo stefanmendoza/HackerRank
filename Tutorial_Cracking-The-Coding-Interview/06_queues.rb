@@ -1,3 +1,15 @@
+#!/bin/ruby
+
+##
+# == Author
+# Stefan Mendoza
+#
+# == Date Created
+# 29 October 2016
+#
+# == Source
+# https://www.hackerrank.com/challenges/ctci-queue-using-two-stacks
+
 lines = $stdin.gets
 
 queue = []
