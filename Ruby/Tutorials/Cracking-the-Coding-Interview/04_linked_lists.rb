@@ -37,3 +37,25 @@ def has_cycle(head)
     return false
   end
 end
+
+# === Test Case #1
+
+# 3 -> 15 -> 2 -> 4
+#      ^          |
+#      |----------|
+
+# head = Node.new(3)
+# head.next = Node.new(15)
+# head.next.next = Node.new(2)
+# head.next.next.next = Node.new(4)
+# head.next.next.next.next = head.next
+# puts has_cycle(head) # should return true
+
+# === Test Case #2
+
+# 3 -> 6 -> 8 -> nil
+
+# head = Node.new(3)
+# head.next = Node.new(6)
+# head.next.next = Node.new(8)
+# puts has_cycle(head) # should return false
